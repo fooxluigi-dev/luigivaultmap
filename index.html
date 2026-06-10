@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Luigi Vault Map · Founder Pain Mining System</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'SF Mono',Monaco,Consolas,monospace;background:#0a0a0f;color:#e0e0ff;min-height:100vh;padding:2rem;background-image:radial-gradient(ellipse at top,#1a0a2e 0%,#0a0a0f 50%),linear-gradient(180deg,#0a0a0f 0%,#000 100%)}
+  .container{max-width:1100px;margin:0 auto}
+  header{text-align:center;margin-bottom:3rem;padding:2rem;border:1px solid #00f0ff33;border-radius:8px;background:linear-gradient(135deg,#0a0a1a99,#1a0a2e99);box-shadow:0 0 40px #00f0ff22}
+  h1{font-size:2.5rem;background:linear-gradient(90deg,#00f0ff,#ff00ff);-webkit-background-clip:text;background-clip:text;color:transparent;letter-spacing:-1px;margin-bottom:.5rem}
+  .tagline{color:#8888cc;font-size:1rem}
+  .glow{color:#00f0ff;text-shadow:0 0 10px #00f0ff88}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem;margin-bottom:2rem}
+  .card{border:1px solid #ff00ff33;border-radius:8px;padding:1.5rem;background:linear-gradient(135deg,#0a0a1aee,#1a0a2eee);transition:.3s;cursor:default;position:relative;overflow:hidden}
+  .card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,#00f0ff,transparent);opacity:0;transition:.3s}
+  .card:hover{transform:translateY(-4px);border-color:#00f0ff;box-shadow:0 8px 30px #00f0ff44}
+  .card:hover::before{opacity:1}
+  .emoji{font-size:2rem;margin-bottom:.5rem;display:block}
+  .card h2{color:#00f0ff;font-size:1.1rem;margin-bottom:.5rem;letter-spacing:.5px}
+  .card p{color:#a0a0cc;font-size:.9rem;line-height:1.5;margin-bottom:.75rem}
+  .examples{color:#6666aa;font-size:.8rem;font-style:italic;border-top:1px solid #2a2a4a;padding-top:.5rem;margin-top:.5rem}
+  .flow{background:linear-gradient(135deg,#1a0a2e,#0a0a1a);border:1px solid #00f0ff44;border-radius:8px;padding:2rem;margin:2rem 0;text-align:center}
+  .flow h2{color:#ff00ff;margin-bottom:1.5rem}
+  .arrow{display:flex;align-items:center;justify-content:center;gap:.5rem;flex-wrap:wrap;margin-bottom:1rem}
+  .step{background:#0a0a1a;border:1px solid #00f0ff66;padding:.5rem 1rem;border-radius:4px;color:#00f0ff;font-size:.9rem}
+  .arrow .pipe{color:#ff00ff;font-size:1.5rem}
+  footer{text-align:center;color:#6666aa;margin-top:3rem;font-size:.85rem;padding-top:2rem;border-top:1px solid #2a2a4a}
+  .pulse{animation:pulse 2s ease-in-out infinite}
+  @keyframes pulse{0%,100%{opacity:.6}50%{opacity:1}}
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>🗺️ Luigi Vault Map</h1>
+    <p class="tagline">Founder Pain Mining System · 9 folders · 1 mission</p>
+    <p class="tagline glow pulse">▸ Find pain people will pay to remove ◂</p>
+  </header>
+
+  <div class="grid">
+    <div class="card">
+      <span class="emoji">📥</span>
+      <h2>01-Inbox</h2>
+      <p>Fresh findings, 3-5 per scan. 3 cron jobs: 00:00, 08:00, 12:00.</p>
+      <p class="examples">Example: "Need 500 fitness leads, budget $200" → r/sales</p>
+    </div>
+
+    <div class="card">
+      <span class="emoji">🎯</span>
+      <h2>02-Founder-Pain</h2>
+      <p>Categorized pain points. Raw, not qualified. Encyclopedia of pain.</p>
+      <p class="examples">"Distributor search in Italy" · 3 mentions, pain 8/10</p>
+    </div>
+
+    <div class="card">
+      <span class="emoji">🚀</span>
+      <h2>03-Leads</h2>
+      <p>Qualified leads ready for outreach. Status: 🆕🔥📤⏳🏆❌</p>
+      <p class="examples">Master Tracker = one row per active deal</p>
+    </div>
+
+    <div class="card">
+      <span class="emoji">🔁</span>
+      <h2>04-Patterns</h2>
+      <p>Pain that hit 10+ mentions = service candidate.</p>
+      <p class="examples">"Distributor search" 41 mentions → service sprint</p>
+    </div>
+
+    <div class="card">
+      <span class="emoji">🛠️</span>
+      <h2>05-Services</h2>
+      <p>Service ideas from patterns. 4 stages:</p>
+      <p class="examples">Ideas → Drafts → Tested → Validated</p>
+    </div>
+
+    <div class="card">
+      <span class="emoji">💡</span>
+      <h2>06-Ideas</h2>
+      <p>Free-form inspiration. Not services yet. Random sparks.</p>
+      <p class="examples">"What if I built a Dolomites price tracker?"</p>
+    </div>
+
+    <div class="card">
+      <span class="emoji">📚</span>
+      <h2>07-Playbooks</h2>
+      <p>Reusable templates + cold reply scripts. 4 ready.</p>
+      <p class="examples">Reddit public reply · DM · Fiverr Q&A · Cold email IT</p>
+    </div>
+
+    <div class="card">
+      <span class="emoji">🏆</span>
+      <h2>08-Wins</h2>
+      <p>Closed deals. Case studies. The proof that works.</p>
+      <p class="examples">"Hotel Cortina · €150 · first repeat client"</p>
+    </div>
+
+    <div class="card">
+      <span class="emoji">💰</span>
+      <h2>09-PoP / Revenue</h2>
+      <p>Proof of Payment · screenshots · testimonials · monthly € total.</p>
+      <p class="examples">"Month 3: €420 · 3 services validated · trust asset"</p>
+    </div>
+  </div>
+
+  <div class="flow">
+    <h2>🔄 Daily Flow</h2>
+    <div class="arrow"><span class="step">Cron 00:00</span><span class="pipe">→</span><span class="step">01-Inbox</span><span class="pipe">→</span><span class="step">You review</span><span class="pipe">→</span><span class="step">03-Leads</span></div>
+    <div class="arrow"><span class="step">02-Founder-Pain</span><span class="pipe">→</span><span class="step">10+ mentions</span><span class="pipe">→</span><span class="step">04-Patterns</span><span class="pipe">→</span><span class="step">05-Service</span></div>
+    <div class="arrow"><span class="step">Ideas</span><span class="pipe">→</span><span class="step">Drafts</span><span class="pipe">→</span><span class="step">Tested</span><span class="pipe">→</span><span class="step">Validated</span><span class="pipe">→</span><span class="step">🏆 €€€</span></div>
+  </div>
+
+  <footer>
+    <p>Built by Luigi + Hermes · EU/Rome timezone · $10/mo budget · Luigi Edge Score 0-70</p>
+    <p style="margin-top:.5rem">Every folder moves the needle. Nothing is noise.</p>
+  </footer>
+</div>
+</body>
+</html>
