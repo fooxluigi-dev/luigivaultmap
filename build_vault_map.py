@@ -20,9 +20,10 @@ VAULT = Path('/Users/openclaw/.hermes/leads-vault')
 CRON_OUTPUT = Path('/Users/openclaw/.hermes/cron/output')
 TZ_ROME = timezone(timedelta(hours=2))  # CEST
 
-# 9 vault folders
+# 10 vault folders (00-Archive added Jun 13: keeps Inbox clean, preserves history)
 FOLDERS = [
-    ("01-Inbox", "📥", "Fresh findings, 3-5 per scan. 4 cron jobs: 00:00, 08:00, 12:00, 18:00.", "#00f0ff"),
+    ("00-Archive", "🗄️", "Immutable history. Previous scans auto-archived here. Inbox stays clean (~6h).", "#666666"),
+    ("01-Inbox", "📥", "Fresh findings, last 6 hours only. Older scans auto-archived to 00-Archive.", "#00f0ff"),
     ("02-Founder-Pain", "🎯", "Categorized pain points. 6 canonical names. Raw, not qualified. Encyclopedia of pain.", "#ff00ff"),
     ("03-Leads", "🚀", "Qualified leads ready for outreach. Status: 🆕🔥📤⏳🏆❌", "#ffaa00"),
     ("04-Patterns", "🔁", "Pain that hits 10+ mentions = service candidate. Tracked weekly with trend arrows.", "#aa00ff"),
@@ -138,8 +139,14 @@ def build_graph() -> dict:
     folder_index = {}
     for i, (name, emoji, desc, color) in enumerate(FOLDERS):
         path = VAULT / name
-        files = list(path.iterdir()) if path.exists() else []
-        md_files = [f for f in files if f.suffix == '.md']
+        if not path.exists():
+            md_files = []
+        elif name == "00-Archive":
+            # Archive has date subfolders — recurse to find all .md
+            md_files = list(path.rglob("*.md"))
+        else:
+            # Other folders are flat (top-level only)
+            md_files = list(path.glob("*.md"))
         nodes.append({
           "id": name,
           "label": f"{emoji} {name}",
@@ -153,13 +160,14 @@ def build_graph() -> dict:
 
         # Add ecosystem edges connecting folders in the natural flow
         ecosystem_flow = [
-            ("01-Inbox", "02-Founder-Pain"),
+            ("00-Archive", "01-Inbox"),       # archive flows back to inbox for re-emerging pain
+            ("01-Inbox", "00-Archive"),       # inbox auto-archives after 6h
+            ("01-Inbox", "02-Founder-Pain"),  # inbox updates pain scores
             ("02-Founder-Pain", "04-Patterns"),
             ("04-Patterns", "05-Services"),
-            ("05-Services", "03-Leads"),
+            ("02-Founder-Pain", "03-Leads"),
             ("03-Leads", "08-Wins"),
             ("08-Wins", "09-Proof-of-Payment"),
-            ("07-Playbooks", "03-Leads"),
             ("06-Ideas", "05-Services"),
         ]
         for src, tgt in ecosystem_flow:
@@ -252,7 +260,11 @@ def main():
                 "file_count": 0, "latest_mtime": None,
             })
             continue
-        files = [f for f in path.iterdir() if f.suffix == '.md']
+        # Use the same recursive logic for archive, flat for others
+        if name == "00-Archive":
+            files = list(path.rglob("*.md"))
+        else:
+            files = [f for f in path.iterdir() if f.suffix == '.md']
         latest_mtime = max((f.stat().st_mtime for f in files), default=None)
         out["folders"].append({
             "name": name,
