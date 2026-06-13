@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T16:55:23.973068+02:00",
+  "generated_at": "2026-06-13T16:39:54.848603+02:00",
   "vault_path": "/Users/openclaw/.hermes/leads-vault",
   "folders": [
     {
@@ -7,9 +7,9 @@
       "emoji": "📥",
       "description": "Fresh findings, 3-5 per scan. 4 cron jobs: 00:00, 08:00, 12:00, 18:00.",
       "color": "#00f0ff",
-      "file_count": 73,
-      "latest_mtime": 1781262590.1848214,
-      "latest_iso": "2026-06-12T13:09:50.184821+02:00"
+      "file_count": 94,
+      "latest_mtime": 1781345578.0080202,
+      "latest_iso": "2026-06-13T12:12:58.008020+02:00"
     },
     {
       "name": "02-Founder-Pain",
@@ -17,8 +17,8 @@
       "description": "Categorized pain points. 6 canonical names. Raw, not qualified. Encyclopedia of pain.",
       "color": "#ff00ff",
       "file_count": 6,
-      "latest_mtime": 1781262621.2894888,
-      "latest_iso": "2026-06-12T13:10:21.289489+02:00"
+      "latest_mtime": 1781345653.544815,
+      "latest_iso": "2026-06-13T12:14:13.544815+02:00"
     },
     {
       "name": "03-Leads",
@@ -35,8 +35,8 @@
       "description": "Pain that hits 10+ mentions = service candidate. Tracked weekly with trend arrows.",
       "color": "#aa00ff",
       "file_count": 7,
-      "latest_mtime": 1781262672.052498,
-      "latest_iso": "2026-06-12T13:11:12.052498+02:00"
+      "latest_mtime": 1781345711.4776585,
+      "latest_iso": "2026-06-13T12:15:11.477659+02:00"
     },
     {
       "name": "05-Services",
@@ -88,22 +88,22 @@
     {
       "name": "ai-automation-implementation-gap",
       "path": "02-Founder-Pain/ai-automation-implementation-gap.md",
-      "total_mentions": 19,
+      "total_mentions": 24,
       "edge_score": 60,
       "pain_severity": 9,
       "first_seen": "2026-06-09",
-      "last_7_delta": 8,
-      "source_file_count": 19
+      "last_7_delta": 10,
+      "source_file_count": 24
     },
     {
       "name": "b2b-lead-generation",
       "path": "02-Founder-Pain/b2b-lead-generation.md",
-      "total_mentions": 17,
+      "total_mentions": 26,
       "edge_score": 55,
       "pain_severity": 9,
       "first_seen": "2026-06-09",
-      "last_7_delta": 9,
-      "source_file_count": 17
+      "last_7_delta": 13,
+      "source_file_count": 26
     },
     {
       "name": "competitor-and-market-research",
@@ -118,305 +118,305 @@
     {
       "name": "eu-market-entry-compliance",
       "path": "02-Founder-Pain/eu-market-entry-compliance.md",
-      "total_mentions": 5,
+      "total_mentions": 6,
       "edge_score": 60,
       "pain_severity": 9,
       "first_seen": "2026-06-09",
       "last_7_delta": 4,
-      "source_file_count": 5
+      "source_file_count": 6
     },
     {
       "name": "indie-launch-distribution",
       "path": "02-Founder-Pain/indie-launch-distribution.md",
-      "total_mentions": 8,
+      "total_mentions": 11,
       "edge_score": 50,
       "pain_severity": 8,
       "first_seen": "2026-06-09",
-      "last_7_delta": 6,
-      "source_file_count": 8
+      "last_7_delta": 7,
+      "source_file_count": 11
     },
     {
       "name": "supplier-distributor-search",
       "path": "02-Founder-Pain/supplier-distributor-search.md",
-      "total_mentions": 8,
+      "total_mentions": 12,
       "edge_score": 55,
       "pain_severity": 7,
       "first_seen": "2026-06-09",
-      "last_7_delta": 2,
-      "source_file_count": 8
+      "last_7_delta": 5,
+      "source_file_count": 12
     }
   ],
   "recent_inbox": [
     {
-      "filename": "2026-06-12-1050-hn-show-lead-list-tool-2026.md",
-      "path": "01-Inbox/2026-06-12-1050-hn-show-lead-list-tool-2026.md",
-      "mtime": 1781262590.1848214,
-      "post_age": "23 minutes (posted 2026-06-12 10:41 UTC) — verified via HN item JSON `time: 1781260907` and page `<span class=\"age\" title=\"2026-06-12T10:41:47\">`",
-      "title": "2026-06-12-1050-hn-show-lead-list-tool-2026",
-      "category": "1050",
-      "url": "https://news.ycombinator.com/item?id=48502339",
+      "filename": "2026-06-13-1010-indie-hn-launch-legal-gtm-help-48505805.md",
+      "path": "01-Inbox/2026-06-13-1010-indie-hn-launch-legal-gtm-help-48505805.md",
+      "mtime": 1781345578.0080202,
+      "post_age": "16h (posted 2026-06-12 18:40 UTC — derived from HN item time 1781280004 → 2026-06-12 18:40:04 UTC)",
+      "title": "2026-06-13-1010-indie-hn-launch-legal-gtm-help-48505805",
+      "category": "1010",
+      "url": "https://news.ycombinator.com/item?id=48505805",
       "pain_score": null,
       "edge_score": null,
-      "iso_mtime": "2026-06-12T13:09:50.184821+02:00"
+      "iso_mtime": "2026-06-13T12:12:58.008020+02:00"
     },
     {
-      "filename": "2026-06-12-1050-indie-ph-visibility-problem-launch-2026.md",
-      "path": "01-Inbox/2026-06-12-1050-indie-ph-visibility-problem-launch-2026.md",
-      "mtime": 1781262569.6746197,
-      "post_age": "9 days (posted 2026-06-03 12:27 UTC) — verified via `<time datetime=\"2026-06-03T12:27:03\">` on the post page",
-      "title": "2026-06-12-1050-indie-ph-visibility-problem-launch-2026",
-      "category": "1050",
-      "url": "https://www.indiehackers.com/post/most-founders-dont-have-a-product-problem-they-have-a-visibility-problem-9ca446f554",
+      "filename": "2026-06-13-1010-ai-support-automation-no-bad-chatbots-1u4ltma.md",
+      "path": "01-Inbox/2026-06-13-1010-ai-support-automation-no-bad-chatbots-1u4ltma.md",
+      "mtime": 1781345558.5730565,
+      "post_age": "1h (posted 2026-06-13 08:50 UTC) — extremely fresh, OP is actively building",
+      "title": "2026-06-13-1010-ai-support-automation-no-bad-chatbots-1u4ltma",
+      "category": "1010",
+      "url": "https://old.reddit.com/r/automation/comments/1u4ltma/automating_customer_support_actually_looks_like/",
       "pain_score": null,
       "edge_score": null,
-      "iso_mtime": "2026-06-12T13:09:29.674620+02:00"
+      "iso_mtime": "2026-06-13T12:12:38.573056+02:00"
     },
     {
-      "filename": "2026-06-12-1050-indie-ph-distribution-wall-research-2026.md",
-      "path": "01-Inbox/2026-06-12-1050-indie-ph-distribution-wall-research-2026.md",
-      "mtime": 1781262544.9864688,
-      "post_age": "25 days (posted 2026-05-18 16:16 UTC) — verified via `<time datetime=\"2026-05-18T16:16:03\">` on the post page",
-      "title": "2026-06-12-1050-indie-ph-distribution-wall-research-2026",
-      "category": "1050",
-      "url": "https://www.indiehackers.com/post/researching-the-distribution-wall-after-launch-what-actually-happened-when-you-launched-357cbbfb16",
+      "filename": "2026-06-13-1010-distribution-cod-eastern-europe-1u4l8bt.md",
+      "path": "01-Inbox/2026-06-13-1010-distribution-cod-eastern-europe-1u4l8bt.md",
+      "mtime": 1781345538.1551423,
+      "post_age": "2h (posted 2026-06-13 08:13 UTC) — very fresh, OP is at the *exploration* stage",
+      "title": "2026-06-13-1010-distribution-cod-eastern-europe-1u4l8bt",
+      "category": "1010",
+      "url": "https://old.reddit.com/r/ecommerce/comments/1u4l8bt/who_is_selling_cod_in_eastern_europe/",
       "pain_score": null,
       "edge_score": null,
-      "iso_mtime": "2026-06-12T13:09:04.986469+02:00"
+      "iso_mtime": "2026-06-13T12:12:18.155142+02:00"
     },
     {
-      "filename": "2026-06-12-1050-indie-ph-distribution-80-percent-launch-guide-2026.md",
-      "path": "01-Inbox/2026-06-12-1050-indie-ph-distribution-80-percent-launch-guide-2026.md",
-      "mtime": 1781262526.9255934,
-      "post_age": "17 days (posted 2026-05-26 06:11 UTC) — verified via `<time datetime=\"2026-05-26T06:11:47\">` on the post page",
-      "title": "2026-06-12-1050-indie-ph-distribution-80-percent-launch-guide-2026",
-      "category": "1050",
-      "url": "https://www.indiehackers.com/post/writing-code-was-easy-getting-the-first-100-users-not-so-much-here-is-my-2026-launch-guide-76792a7164",
+      "filename": "2026-06-13-1010-sales-b2b-saas-equity-partner-pitch-1u4ilh4.md",
+      "path": "01-Inbox/2026-06-13-1010-sales-b2b-saas-equity-partner-pitch-1u4ilh4.md",
+      "mtime": 1781345517.2286325,
+      "post_age": "4h (posted 2026-06-13 05:41 UTC) — very fresh, OP is actively thinking about this",
+      "title": "2026-06-13-1010-sales-b2b-saas-equity-partner-pitch-1u4ilh4",
+      "category": "1010",
+      "url": "https://old.reddit.com/r/SaaS/comments/1u4ilh4/solo_founder_of_a_bootstrapped_b2b_saas_media/",
       "pain_score": null,
       "edge_score": null,
-      "iso_mtime": "2026-06-12T13:08:46.925593+02:00"
+      "iso_mtime": "2026-06-13T12:11:57.228632+02:00"
     },
     {
-      "filename": "2026-06-12-1050-indie-ph-zero-user-launch-postmortem-2026.md",
-      "path": "01-Inbox/2026-06-12-1050-indie-ph-zero-user-launch-postmortem-2026.md",
-      "mtime": 1781262506.0814922,
-      "post_age": "9 days (posted 2026-06-03 16:05 UTC) — verified via `<time datetime=\"2026-06-03T16:05:03\">` on the post page",
-      "title": "2026-06-12-1050-indie-ph-zero-user-launch-postmortem-2026",
-      "category": "1050",
-      "url": "https://www.indiehackers.com/post/launched-on-product-hunt-to-zero-users-heres-what-i-changed-37f6925837",
+      "filename": "2026-06-13-1010-sales-agency-consistent-clients-1u3tucn.md",
+      "path": "01-Inbox/2026-06-13-1010-sales-agency-consistent-clients-1u3tucn.md",
+      "mtime": 1781345498.4198961,
+      "post_age": "22h (posted 2026-06-12 12:26 UTC)",
+      "title": "2026-06-13-1010-sales-agency-consistent-clients-1u3tucn",
+      "category": "1010",
+      "url": "https://old.reddit.com/r/Entrepreneur/comments/1u3tucn/why_most_agency_owners_struggle_to_get_consistent/",
       "pain_score": null,
       "edge_score": null,
-      "iso_mtime": "2026-06-12T13:08:26.081492+02:00"
+      "iso_mtime": "2026-06-13T12:11:38.419896+02:00"
     },
     {
-      "filename": "2026-06-12-1200-ai-ai-agency-premium-pivot-2026.md",
-      "path": "01-Inbox/2026-06-12-1200-ai-ai-agency-premium-pivot-2026.md",
-      "mtime": 1781258657.421546,
-      "post_age": "UNKNOWN",
-      "title": "What I'm changing in 2026 after running an AI automation agency in 2025",
-      "category": "** ai-automation-implementation-gap",
-      "url": "https://www.reddit.com/r/automation/comments/1qgdvv3/what_im_changing_in_2026_after_running_an_ai/",
-      "pain_score": 7,
+      "filename": "2026-06-13-1010-sales-automation-services-gtm-1u3qlda.md",
+      "path": "01-Inbox/2026-06-13-1010-sales-automation-services-gtm-1u3qlda.md",
+      "mtime": 1781345480.2195103,
+      "post_age": "24h (posted 2026-06-12 09:38 UTC) — fresh enough to act on",
+      "title": "2026-06-13-1010-sales-automation-services-gtm-1u3qlda",
+      "category": "1010",
+      "url": "https://old.reddit.com/r/automation/comments/1u3qlda/how_would_you_start_selling_automations_where/",
+      "pain_score": null,
       "edge_score": null,
-      "iso_mtime": "2026-06-12T12:04:17.421546+02:00"
+      "iso_mtime": "2026-06-13T12:11:20.219510+02:00"
     },
     {
-      "filename": "2026-06-12-1200-ai-smb-ai-workflow-noncoder-2026.md",
-      "path": "01-Inbox/2026-06-12-1200-ai-smb-ai-workflow-noncoder-2026.md",
-      "mtime": 1781258641.0389,
+      "filename": "2026-06-13-0600-indie-saas-distribution-procrastination-1u4io17.md",
+      "path": "01-Inbox/2026-06-13-0600-indie-saas-distribution-procrastination-1u4io17.md",
+      "mtime": 1781330973.3914728,
       "post_age": "UNKNOWN",
-      "title": "Automation tools for non-coders to help small businesses with AI?",
-      "category": "** ai-automation-implementation-gap",
-      "url": "https://www.reddit.com/r/automation/comments/1oowrcw/automation_tools_for_noncoders_to_help_small/",
-      "pain_score": 8,
+      "title": "2026-06-13-0600-indie-saas-distribution-procrastination-1u4io17",
+      "category": "0600",
+      "url": null,
+      "pain_score": null,
       "edge_score": null,
-      "iso_mtime": "2026-06-12T12:04:01.038900+02:00"
+      "iso_mtime": "2026-06-13T08:09:33.391473+02:00"
     },
     {
-      "filename": "2026-06-12-1200-ai-ai-agency-wedge-decision-2026.md",
-      "path": "01-Inbox/2026-06-12-1200-ai-ai-agency-wedge-decision-2026.md",
-      "mtime": 1781258623.295369,
+      "filename": "2026-06-13-0600-sales-personalized-landing-pages-outreach-1u4dloy.md",
+      "path": "01-Inbox/2026-06-13-0600-sales-personalized-landing-pages-outreach-1u4dloy.md",
+      "mtime": 1781330957.3607218,
       "post_age": "UNKNOWN",
-      "title": "Need honest advice from experts",
-      "category": "** ai-automation-implementation-gap",
-      "url": "https://www.reddit.com/r/automation/comments/1sivquz/need_honest_advice_from_experts/",
-      "pain_score": 7,
+      "title": "2026-06-13-0600-sales-personalized-landing-pages-outreach-1u4dloy",
+      "category": "0600",
+      "url": null,
+      "pain_score": null,
       "edge_score": null,
-      "iso_mtime": "2026-06-12T12:03:43.295369+02:00"
+      "iso_mtime": "2026-06-13T08:09:17.360722+02:00"
     },
     {
-      "filename": "2026-06-12-1200-indie-saas-first-100-distribution-gap-2026.md",
-      "path": "01-Inbox/2026-06-12-1200-indie-saas-first-100-distribution-gap-2026.md",
-      "mtime": 1781258606.483074,
+      "filename": "2026-06-13-0600-ai-agent-manual-override-patterns-1u4ikcq.md",
+      "path": "01-Inbox/2026-06-13-0600-ai-agent-manual-override-patterns-1u4ikcq.md",
+      "mtime": 1781330938.411048,
       "post_age": "UNKNOWN",
-      "title": "Getting users feels way harder than building the product",
-      "category": "** indie-launch-distribution",
-      "url": "https://www.reddit.com/r/saasbuild/comments/1swv13m/getting_users_feels_way_harder_than_building_the/",
-      "pain_score": 9,
+      "title": "2026-06-13-0600-ai-agent-manual-override-patterns-1u4ikcq",
+      "category": "0600",
+      "url": null,
+      "pain_score": null,
       "edge_score": null,
-      "iso_mtime": "2026-06-12T12:03:26.483074+02:00"
+      "iso_mtime": "2026-06-13T08:08:58.411048+02:00"
     },
     {
-      "filename": "2026-06-12-1200-sales-llm-leadgen-gemini-fail-2026.md",
-      "path": "01-Inbox/2026-06-12-1200-sales-llm-leadgen-gemini-fail-2026.md",
-      "mtime": 1781258590.1683676,
+      "filename": "2026-06-13-0600-sales-selling-automations-gtm-1u3qlda.md",
+      "path": "01-Inbox/2026-06-13-0600-sales-selling-automations-gtm-1u3qlda.md",
+      "mtime": 1781330918.5001404,
       "post_age": "UNKNOWN",
-      "title": "Best AI to generate leads - Having problem with Gemini",
-      "category": "** b2b-lead-generation",
-      "url": "https://www.reddit.com/r/sales/comments/1rpz3lv/best_ai_to_generate_leads_having_problem_with/",
-      "pain_score": 7,
+      "title": "2026-06-13-0600-sales-selling-automations-gtm-1u3qlda",
+      "category": "0600",
+      "url": null,
+      "pain_score": null,
       "edge_score": null,
-      "iso_mtime": "2026-06-12T12:03:10.168368+02:00"
+      "iso_mtime": "2026-06-13T08:08:38.500140+02:00"
     },
     {
-      "filename": "2026-06-12-0800-sales-cold-email-template-rating-2026.md",
-      "path": "01-Inbox/2026-06-12-0800-sales-cold-email-template-rating-2026.md",
-      "mtime": 1781245045.5026453,
+      "filename": "2026-06-13-0600-ai-invoice-automation-custom-pricing-1u3ccoh.md",
+      "path": "01-Inbox/2026-06-13-0600-ai-invoice-automation-custom-pricing-1u3ccoh.md",
+      "mtime": 1781330900.3116107,
       "post_age": "UNKNOWN",
-      "title": "2026-06-12-0800-sales-cold-email-template-rating-2026",
-      "category": "0800",
-      "url": "https://www.reddit.com/r/Entrepreneur/comments/1u1jy5e/please_rate_my_cold_email_template/",
-      "pain_score": 7,
+      "title": "2026-06-13-0600-ai-invoice-automation-custom-pricing-1u3ccoh",
+      "category": "0600",
+      "url": null,
+      "pain_score": null,
       "edge_score": null,
-      "iso_mtime": "2026-06-12T08:17:25.502645+02:00"
+      "iso_mtime": "2026-06-13T08:08:20.311611+02:00"
     },
     {
-      "filename": "2026-06-12-0800-research-competitor-price-monitor-dtc-2026.md",
-      "path": "01-Inbox/2026-06-12-0800-research-competitor-price-monitor-dtc-2026.md",
-      "mtime": 1781245045.480574,
-      "post_age": "UNKNOWN",
-      "title": "2026-06-12-0800-research-competitor-price-monitor-dtc-2026",
-      "category": "0800",
-      "url": "https://www.reddit.com/r/ecommerce/comments/1u2ioc1/looking_for_a_web_monitoring_tool_that_can_alert/",
-      "pain_score": 7,
+      "filename": "2026-06-12-2200-ai-agents-enterprise-legacy-integration-1sxwb9m.md",
+      "path": "01-Inbox/2026-06-12-2200-ai-agents-enterprise-legacy-integration-1sxwb9m.md",
+      "mtime": 1781302192.247096,
+      "post_age": "1093h (~46 days, posted 2026-04-28 09:25 UTC)",
+      "title": "2026-06-12-2200-ai-agents-enterprise-legacy-integration-1sxwb9m",
+      "category": "2200",
+      "url": "https://old.reddit.com/r/AI_Agents/comments/1sxwb9m/how_do_companies_integrate_ai_agents_into/",
+      "pain_score": null,
       "edge_score": null,
-      "iso_mtime": "2026-06-12T08:17:25.480574+02:00"
+      "iso_mtime": "2026-06-13T00:09:52.247096+02:00"
     },
     {
-      "filename": "2026-06-12-0800-distribution-beauty-brand-retail-us-2026.md",
-      "path": "01-Inbox/2026-06-12-0800-distribution-beauty-brand-retail-us-2026.md",
-      "mtime": 1781245045.4735718,
-      "post_age": "UNKNOWN",
-      "title": "2026-06-12-0800-distribution-beauty-brand-retail-us-2026",
-      "category": "0800",
-      "url": "https://www.reddit.com/r/Entrepreneur/comments/1u0k6fz/getting_your_beauty_brand_into_retail_in_the_us/",
-      "pain_score": 9,
+      "filename": "2026-06-12-2200-sales-saas-first-users-1qvp0tn.md",
+      "path": "01-Inbox/2026-06-12-2200-sales-saas-first-users-1qvp0tn.md",
+      "mtime": 1781302192.244524,
+      "post_age": "3080h (~128 days, posted 2026-02-04 13:48 UTC)",
+      "title": "2026-06-12-2200-sales-saas-first-users-1qvp0tn",
+      "category": "2200",
+      "url": "https://old.reddit.com/r/SaaS/comments/1qvp0tn/how_to_get_first_users/",
+      "pain_score": null,
       "edge_score": null,
-      "iso_mtime": "2026-06-12T08:17:25.473572+02:00"
+      "iso_mtime": "2026-06-13T00:09:52.244524+02:00"
     },
     {
-      "filename": "2026-06-12-0800-indie-saas-first-customer-harder-than-build-2026.md",
-      "path": "01-Inbox/2026-06-12-0800-indie-saas-first-customer-harder-than-build-2026.md",
-      "mtime": 1781244982.0366352,
-      "post_age": "UNKNOWN",
-      "title": "2026-06-12-0800-indie-saas-first-customer-harder-than-build-2026",
-      "category": "0800",
-      "url": "https://www.reddit.com/r/SaaS/comments/1u3l95i/getting_the_first_customer_has_been_harder_than/",
-      "pain_score": 8,
+      "filename": "2026-06-12-2200-hn-ask-launch-distribution-strategy-48505805.md",
+      "path": "01-Inbox/2026-06-12-2200-hn-ask-launch-distribution-strategy-48505805.md",
+      "mtime": 1781302192.2166195,
+      "post_age": "6h (posted 2026-06-12 16:00 UTC)",
+      "title": "2026-06-12-2200-hn-ask-launch-distribution-strategy-48505805",
+      "category": "2200",
+      "url": "https://news.ycombinator.com/item?id=48505805",
+      "pain_score": null,
       "edge_score": null,
-      "iso_mtime": "2026-06-12T08:16:22.036635+02:00"
+      "iso_mtime": "2026-06-13T00:09:52.216619+02:00"
     },
     {
-      "filename": "2026-06-12-0800-ai-agent-sprawl-b2b-rollout-2026.md",
-      "path": "01-Inbox/2026-06-12-0800-ai-agent-sprawl-b2b-rollout-2026.md",
-      "mtime": 1781244982.0259826,
-      "post_age": "UNKNOWN",
-      "title": "2026-06-12-0800-ai-agent-sprawl-b2b-rollout-2026",
-      "category": "0800",
-      "url": "https://www.reddit.com/r/AI_Agents/comments/1u37mw9/everyones_talking_about_ai_agents_almost_nobodys/",
-      "pain_score": 8,
+      "filename": "2026-06-12-2200-distribution-tech-products-distributor-1qyo494.md",
+      "path": "01-Inbox/2026-06-12-2200-distribution-tech-products-distributor-1qyo494.md",
+      "mtime": 1781302192.1964529,
+      "post_age": "3002h (~125 days, posted 2026-02-07 20:14 UTC)",
+      "title": "2026-06-12-2200-distribution-tech-products-distributor-1qyo494",
+      "category": "2200",
+      "url": "https://old.reddit.com/r/Entrepreneur/comments/1qyo494/how_to_find_a_distributor_not_promotion/",
+      "pain_score": null,
       "edge_score": null,
-      "iso_mtime": "2026-06-12T08:16:22.025983+02:00"
+      "iso_mtime": "2026-06-13T00:09:52.196453+02:00"
     },
     {
-      "filename": "2026-06-12-0001-eu-uk-amazon-private-label-vat-epr-2026.md",
-      "path": "01-Inbox/2026-06-12-0001-eu-uk-amazon-private-label-vat-epr-2026.md",
-      "mtime": 1781215583.0208778,
-      "post_age": "UNKNOWN",
-      "title": "2026-06-12-0001-eu-uk-amazon-private-label-vat-epr-2026",
-      "category": "0001",
-      "url": "https://www.reddit.com/r/AmazonFBA/comments/1s3vg1w/i_want_to_expand_a_private_label_product_to_uk/",
-      "pain_score": 8,
+      "filename": "2026-06-12-2200-sales-advancedentrepreneur-leadgen-stuck-1o2yaa1.md",
+      "path": "01-Inbox/2026-06-12-2200-sales-advancedentrepreneur-leadgen-stuck-1o2yaa1.md",
+      "mtime": 1781302192.1801896,
+      "post_age": "5891h (~245 days, posted 2025-10-10 11:26 UTC)",
+      "title": "2026-06-12-2200-sales-advancedentrepreneur-leadgen-stuck-1o2yaa1",
+      "category": "2200",
+      "url": "https://old.reddit.com/r/advancedentrepreneur/comments/1o2yaa1/struggling_with_lead_generation_for_months/",
+      "pain_score": null,
       "edge_score": null,
-      "iso_mtime": "2026-06-12T00:06:23.020878+02:00"
+      "iso_mtime": "2026-06-13T00:09:52.180190+02:00"
     },
     {
-      "filename": "2026-06-12-0001-ai-ai-sdr-prompt-pain-2026.md",
-      "path": "01-Inbox/2026-06-12-0001-ai-ai-sdr-prompt-pain-2026.md",
-      "mtime": 1781215583.0155962,
+      "filename": "2026-06-12-1601-sales-cold-email-template-consultant-2026.md",
+      "path": "01-Inbox/2026-06-12-1601-sales-cold-email-template-consultant-2026.md",
+      "mtime": 1781280529.4622386,
       "post_age": "UNKNOWN",
-      "title": "2026-06-12-0001-ai-ai-sdr-prompt-pain-2026",
-      "category": "0001",
-      "url": "https://www.reddit.com/r/sales/comments/1t63m4o/any_good_result_with_ai_sdr_im_thinking_about/",
-      "pain_score": 7,
+      "title": "2026-06-12-1601-sales-cold-email-template-consultant-2026",
+      "category": "1601",
+      "url": null,
+      "pain_score": null,
       "edge_score": null,
-      "iso_mtime": "2026-06-12T00:06:23.015596+02:00"
+      "iso_mtime": "2026-06-12T18:08:49.462239+02:00"
     },
     {
-      "filename": "2026-06-12-0001-eu-us-seller-eu-product-compliance-2026.md",
-      "path": "01-Inbox/2026-06-12-0001-eu-us-seller-eu-product-compliance-2026.md",
-      "mtime": 1781215583.010813,
+      "filename": "2026-06-12-1601-distribution-apparel-manufacturer-pakistan-2026.md",
+      "path": "01-Inbox/2026-06-12-1601-distribution-apparel-manufacturer-pakistan-2026.md",
+      "mtime": 1781280503.0323591,
       "post_age": "UNKNOWN",
-      "title": "2026-06-12-0001-eu-us-seller-eu-product-compliance-2026",
-      "category": "0001",
-      "url": "https://www.reddit.com/r/FulfillmentByAmazon/comments/1sjle0h/usbased_ecommerce_seller_trying_to_understand_eu/",
-      "pain_score": 7,
+      "title": "2026-06-12-1601-distribution-apparel-manufacturer-pakistan-2026",
+      "category": "1601",
+      "url": null,
+      "pain_score": null,
       "edge_score": null,
-      "iso_mtime": "2026-06-12T00:06:23.010813+02:00"
+      "iso_mtime": "2026-06-12T18:08:23.032359+02:00"
     },
     {
-      "filename": "2026-06-12-0001-eu-amazon-noneu-brands-entity-compliance-2026.md",
-      "path": "01-Inbox/2026-06-12-0001-eu-amazon-noneu-brands-entity-compliance-2026.md",
-      "mtime": 1781215583.0060909,
+      "filename": "2026-06-12-1601-distribution-low-moq-packaging-supplier-2026.md",
+      "path": "01-Inbox/2026-06-12-1601-distribution-low-moq-packaging-supplier-2026.md",
+      "mtime": 1781280478.1942656,
       "post_age": "UNKNOWN",
-      "title": "2026-06-12-0001-eu-amazon-noneu-brands-entity-compliance-2026",
-      "category": "0001",
-      "url": "https://www.reddit.com/r/AmazonFBA/comments/1sighul/noneu_brands_selling_on_amazon_eu_how_did_you/",
-      "pain_score": 8,
+      "title": "2026-06-12-1601-distribution-low-moq-packaging-supplier-2026",
+      "category": "1601",
+      "url": null,
+      "pain_score": null,
       "edge_score": null,
-      "iso_mtime": "2026-06-12T00:06:23.006091+02:00"
+      "iso_mtime": "2026-06-12T18:07:58.194266+02:00"
     },
     {
-      "filename": "2026-06-12-0001-sales-sdrs-cold-outreach-flagged-banned-2026.md",
-      "path": "01-Inbox/2026-06-12-0001-sales-sdrs-cold-outreach-flagged-banned-2026.md",
-      "mtime": 1781215582.9969778,
+      "filename": "2026-06-12-1601-ai-agent-sprawl-governance-audit-2026.md",
+      "path": "01-Inbox/2026-06-12-1601-ai-agent-sprawl-governance-audit-2026.md",
+      "mtime": 1781280457.6821582,
       "post_age": "UNKNOWN",
-      "title": "2026-06-12-0001-sales-sdrs-cold-outreach-flagged-banned-2026",
-      "category": "0001",
-      "url": "https://www.reddit.com/r/sales/comments/1kiglne/how_are_sdrs_still_doing_cold_outreach_without/",
-      "pain_score": 7,
+      "title": "2026-06-12-1601-ai-agent-sprawl-governance-audit-2026",
+      "category": "1601",
+      "url": null,
+      "pain_score": null,
       "edge_score": null,
-      "iso_mtime": "2026-06-12T00:06:22.996978+02:00"
+      "iso_mtime": "2026-06-12T18:07:37.682158+02:00"
     }
   ],
   "cron_runs": [
     {
-      "job_id": "c6dd26b07375",
-      "latest_file": "2026-06-12_13-11-41.md",
-      "mtime": 1781262701.2734008,
-      "iso": "2026-06-12T13:11:41.273401+02:00"
-    },
-    {
       "job_id": "7a7b7518a2c2",
-      "latest_file": "2026-06-12_12-06-48.md",
-      "mtime": 1781258808.9686415,
-      "iso": "2026-06-12T12:06:48.968642+02:00"
+      "latest_file": "2026-06-13_12-15-44.md",
+      "mtime": 1781345744.4614627,
+      "iso": "2026-06-13T12:15:44.461463+02:00"
     },
     {
       "job_id": "1652a736a331",
-      "latest_file": "2026-06-12_08-19-11.md",
-      "mtime": 1781245151.650011,
-      "iso": "2026-06-12T08:19:11.650011+02:00"
+      "latest_file": "2026-06-13_08-11-16.md",
+      "mtime": 1781331076.7952912,
+      "iso": "2026-06-13T08:11:16.795291+02:00"
     },
     {
       "job_id": "6abe10d2a786",
-      "latest_file": "2026-06-12_00-08-21.md",
-      "mtime": 1781215701.0171602,
-      "iso": "2026-06-12T00:08:21.017160+02:00"
+      "latest_file": "2026-06-13_00-11-48.md",
+      "mtime": 1781302308.4342391,
+      "iso": "2026-06-13T00:11:48.434239+02:00"
+    },
+    {
+      "job_id": "c6dd26b07375",
+      "latest_file": "2026-06-12_18-10-19.md",
+      "mtime": 1781280619.0714314,
+      "iso": "2026-06-12T18:10:19.071431+02:00"
     }
   ],
   "stats": {
-    "total_files": 90,
-    "total_mentions": 73,
+    "total_files": 111,
+    "total_mentions": 95,
     "avg_edge_score": 55.8,
     "canonical_pain_count": 6,
     "graph_node_count": 25,
@@ -429,7 +429,7 @@
         "label": "📥 01-Inbox",
         "type": "folder",
         "color": "#00f0ff",
-        "file_count": 73,
+        "file_count": 94,
         "description": "Fresh findings, 3-5 per scan. 4 cron jobs: 00:00, 08:00, 12:00, 18:00.",
         "size": 49.0
       },
@@ -511,12 +511,12 @@
         "type": "pain",
         "color": "#ff00ff",
         "file_count": 1,
-        "mentions": 19,
+        "mentions": 24,
         "edge_score": 60,
         "pain_severity": 9,
-        "last_7_delta": 8,
+        "last_7_delta": 10,
         "first_seen": "2026-06-09",
-        "size": 19.6
+        "size": 21.6
       },
       {
         "id": "pain-b2b-lead-generation",
@@ -524,12 +524,12 @@
         "type": "pain",
         "color": "#ff00ff",
         "file_count": 1,
-        "mentions": 17,
+        "mentions": 26,
         "edge_score": 55,
         "pain_severity": 9,
-        "last_7_delta": 9,
+        "last_7_delta": 13,
         "first_seen": "2026-06-09",
-        "size": 18.8
+        "size": 22.4
       },
       {
         "id": "pain-competitor-and-market-research",
@@ -550,12 +550,12 @@
         "type": "pain",
         "color": "#ff00ff",
         "file_count": 1,
-        "mentions": 5,
+        "mentions": 6,
         "edge_score": 60,
         "pain_severity": 9,
         "last_7_delta": 4,
         "first_seen": "2026-06-09",
-        "size": 14.0
+        "size": 14.4
       },
       {
         "id": "pain-indie-launch-distribution",
@@ -563,12 +563,12 @@
         "type": "pain",
         "color": "#ff00ff",
         "file_count": 1,
-        "mentions": 8,
+        "mentions": 11,
         "edge_score": 50,
         "pain_severity": 8,
-        "last_7_delta": 6,
+        "last_7_delta": 7,
         "first_seen": "2026-06-09",
-        "size": 15.2
+        "size": 16.4
       },
       {
         "id": "pain-supplier-distributor-search",
@@ -576,142 +576,142 @@
         "type": "pain",
         "color": "#ff00ff",
         "file_count": 1,
-        "mentions": 8,
+        "mentions": 12,
         "edge_score": 55,
         "pain_severity": 7,
-        "last_7_delta": 2,
+        "last_7_delta": 5,
         "first_seen": "2026-06-09",
-        "size": 15.2
+        "size": 16.8
       },
       {
-        "id": "inbox-2026-06-12-1050-hn-show-lead-list-tool-2026",
-        "label": "2026-06-12-1050-hn-show-lead-list-tool-2026",
+        "id": "inbox-2026-06-13-1010-indie-hn-launch-legal-gtm-help-48505805",
+        "label": "2026-06-13-1010-indie-hn-launch-legal-gtm-help-485",
         "type": "inbox",
         "color": "#00f0ff",
         "file_count": 1,
-        "category": "1050",
-        "post_age": "23 minutes (posted 2026-06-12 10:41 UTC) — verified via HN item JSON `time: 1781260907` and page `<span class=\"age\" title=\"2026-06-12T10:41:47\">`",
+        "category": "1010",
+        "post_age": "16h (posted 2026-06-12 18:40 UTC — derived from HN item time 1781280004 → 2026-06-12 18:40:04 UTC)",
         "edge_score": null,
         "pain_score": null,
         "size": 8,
-        "mtime": 1781262590.1848214
+        "mtime": 1781345578.0080202
       },
       {
-        "id": "inbox-2026-06-12-1050-indie-ph-visibility-problem-launch-2026",
-        "label": "2026-06-12-1050-indie-ph-visibility-problem-launch",
+        "id": "inbox-2026-06-13-1010-ai-support-automation-no-bad-chatbots-1u4ltma",
+        "label": "2026-06-13-1010-ai-support-automation-no-bad-chatb",
         "type": "inbox",
         "color": "#00f0ff",
         "file_count": 1,
-        "category": "1050",
-        "post_age": "9 days (posted 2026-06-03 12:27 UTC) — verified via `<time datetime=\"2026-06-03T12:27:03\">` on the post page",
+        "category": "1010",
+        "post_age": "1h (posted 2026-06-13 08:50 UTC) — extremely fresh, OP is actively building",
         "edge_score": null,
         "pain_score": null,
         "size": 8,
-        "mtime": 1781262569.6746197
+        "mtime": 1781345558.5730565
       },
       {
-        "id": "inbox-2026-06-12-1050-indie-ph-distribution-wall-research-2026",
-        "label": "2026-06-12-1050-indie-ph-distribution-wall-researc",
+        "id": "inbox-2026-06-13-1010-distribution-cod-eastern-europe-1u4l8bt",
+        "label": "2026-06-13-1010-distribution-cod-eastern-europe-1u",
         "type": "inbox",
         "color": "#00f0ff",
         "file_count": 1,
-        "category": "1050",
-        "post_age": "25 days (posted 2026-05-18 16:16 UTC) — verified via `<time datetime=\"2026-05-18T16:16:03\">` on the post page",
+        "category": "1010",
+        "post_age": "2h (posted 2026-06-13 08:13 UTC) — very fresh, OP is at the *exploration* stage",
         "edge_score": null,
         "pain_score": null,
         "size": 8,
-        "mtime": 1781262544.9864688
+        "mtime": 1781345538.1551423
       },
       {
-        "id": "inbox-2026-06-12-1050-indie-ph-distribution-80-percent-launch-guide-2026",
-        "label": "2026-06-12-1050-indie-ph-distribution-80-percent-l",
+        "id": "inbox-2026-06-13-1010-sales-b2b-saas-equity-partner-pitch-1u4ilh4",
+        "label": "2026-06-13-1010-sales-b2b-saas-equity-partner-pitc",
         "type": "inbox",
         "color": "#00f0ff",
         "file_count": 1,
-        "category": "1050",
-        "post_age": "17 days (posted 2026-05-26 06:11 UTC) — verified via `<time datetime=\"2026-05-26T06:11:47\">` on the post page",
+        "category": "1010",
+        "post_age": "4h (posted 2026-06-13 05:41 UTC) — very fresh, OP is actively thinking about this",
         "edge_score": null,
         "pain_score": null,
         "size": 8,
-        "mtime": 1781262526.9255934
+        "mtime": 1781345517.2286325
       },
       {
-        "id": "inbox-2026-06-12-1050-indie-ph-zero-user-launch-postmortem-2026",
-        "label": "2026-06-12-1050-indie-ph-zero-user-launch-postmort",
+        "id": "inbox-2026-06-13-1010-sales-agency-consistent-clients-1u3tucn",
+        "label": "2026-06-13-1010-sales-agency-consistent-clients-1u",
         "type": "inbox",
         "color": "#00f0ff",
         "file_count": 1,
-        "category": "1050",
-        "post_age": "9 days (posted 2026-06-03 16:05 UTC) — verified via `<time datetime=\"2026-06-03T16:05:03\">` on the post page",
+        "category": "1010",
+        "post_age": "22h (posted 2026-06-12 12:26 UTC)",
         "edge_score": null,
         "pain_score": null,
         "size": 8,
-        "mtime": 1781262506.0814922
+        "mtime": 1781345498.4198961
       },
       {
-        "id": "inbox-2026-06-12-1200-ai-ai-agency-premium-pivot-2026",
-        "label": "What I'm changing in 2026 after running an AI auto",
+        "id": "inbox-2026-06-13-1010-sales-automation-services-gtm-1u3qlda",
+        "label": "2026-06-13-1010-sales-automation-services-gtm-1u3q",
         "type": "inbox",
         "color": "#00f0ff",
         "file_count": 1,
-        "category": "** ai-automation-implementation-gap",
-        "post_age": "UNKNOWN",
+        "category": "1010",
+        "post_age": "24h (posted 2026-06-12 09:38 UTC) — fresh enough to act on",
         "edge_score": null,
-        "pain_score": 7,
+        "pain_score": null,
         "size": 8,
-        "mtime": 1781258657.421546
+        "mtime": 1781345480.2195103
       },
       {
-        "id": "inbox-2026-06-12-1200-ai-smb-ai-workflow-noncoder-2026",
-        "label": "Automation tools for non-coders to help small busi",
+        "id": "inbox-2026-06-13-0600-indie-saas-distribution-procrastination-1u4io17",
+        "label": "2026-06-13-0600-indie-saas-distribution-procrastin",
         "type": "inbox",
         "color": "#00f0ff",
         "file_count": 1,
-        "category": "** ai-automation-implementation-gap",
+        "category": "0600",
         "post_age": "UNKNOWN",
         "edge_score": null,
-        "pain_score": 8,
+        "pain_score": null,
         "size": 8,
-        "mtime": 1781258641.0389
+        "mtime": 1781330973.3914728
       },
       {
-        "id": "inbox-2026-06-12-1200-ai-ai-agency-wedge-decision-2026",
-        "label": "Need honest advice from experts",
+        "id": "inbox-2026-06-13-0600-sales-personalized-landing-pages-outreach-1u4dloy",
+        "label": "2026-06-13-0600-sales-personalized-landing-pages-o",
         "type": "inbox",
         "color": "#00f0ff",
         "file_count": 1,
-        "category": "** ai-automation-implementation-gap",
+        "category": "0600",
         "post_age": "UNKNOWN",
         "edge_score": null,
-        "pain_score": 7,
+        "pain_score": null,
         "size": 8,
-        "mtime": 1781258623.295369
+        "mtime": 1781330957.3607218
       },
       {
-        "id": "inbox-2026-06-12-1200-indie-saas-first-100-distribution-gap-2026",
-        "label": "Getting users feels way harder than building the p",
+        "id": "inbox-2026-06-13-0600-ai-agent-manual-override-patterns-1u4ikcq",
+        "label": "2026-06-13-0600-ai-agent-manual-override-patterns-",
         "type": "inbox",
         "color": "#00f0ff",
         "file_count": 1,
-        "category": "** indie-launch-distribution",
+        "category": "0600",
         "post_age": "UNKNOWN",
         "edge_score": null,
-        "pain_score": 9,
+        "pain_score": null,
         "size": 8,
-        "mtime": 1781258606.483074
+        "mtime": 1781330938.411048
       },
       {
-        "id": "inbox-2026-06-12-1200-sales-llm-leadgen-gemini-fail-2026",
-        "label": "Best AI to generate leads - Having problem with Ge",
+        "id": "inbox-2026-06-13-0600-sales-selling-automations-gtm-1u3qlda",
+        "label": "2026-06-13-0600-sales-selling-automations-gtm-1u3q",
         "type": "inbox",
         "color": "#00f0ff",
         "file_count": 1,
-        "category": "** b2b-lead-generation",
+        "category": "0600",
         "post_age": "UNKNOWN",
         "edge_score": null,
-        "pain_score": 7,
+        "pain_score": null,
         "size": 8,
-        "mtime": 1781258590.1683676
+        "mtime": 1781330918.5001404
       }
     ],
     "edges": [
@@ -786,52 +786,52 @@
         "type": "belongs"
       },
       {
-        "source": "inbox-2026-06-12-1050-hn-show-lead-list-tool-2026",
+        "source": "inbox-2026-06-13-1010-indie-hn-launch-legal-gtm-help-48505805",
         "target": "01-Inbox",
         "type": "in"
       },
       {
-        "source": "inbox-2026-06-12-1050-indie-ph-visibility-problem-launch-2026",
+        "source": "inbox-2026-06-13-1010-ai-support-automation-no-bad-chatbots-1u4ltma",
         "target": "01-Inbox",
         "type": "in"
       },
       {
-        "source": "inbox-2026-06-12-1050-indie-ph-distribution-wall-research-2026",
+        "source": "inbox-2026-06-13-1010-distribution-cod-eastern-europe-1u4l8bt",
         "target": "01-Inbox",
         "type": "in"
       },
       {
-        "source": "inbox-2026-06-12-1050-indie-ph-distribution-80-percent-launch-guide-2026",
+        "source": "inbox-2026-06-13-1010-sales-b2b-saas-equity-partner-pitch-1u4ilh4",
         "target": "01-Inbox",
         "type": "in"
       },
       {
-        "source": "inbox-2026-06-12-1050-indie-ph-zero-user-launch-postmortem-2026",
+        "source": "inbox-2026-06-13-1010-sales-agency-consistent-clients-1u3tucn",
         "target": "01-Inbox",
         "type": "in"
       },
       {
-        "source": "inbox-2026-06-12-1200-ai-ai-agency-premium-pivot-2026",
+        "source": "inbox-2026-06-13-1010-sales-automation-services-gtm-1u3qlda",
         "target": "01-Inbox",
         "type": "in"
       },
       {
-        "source": "inbox-2026-06-12-1200-ai-smb-ai-workflow-noncoder-2026",
+        "source": "inbox-2026-06-13-0600-indie-saas-distribution-procrastination-1u4io17",
         "target": "01-Inbox",
         "type": "in"
       },
       {
-        "source": "inbox-2026-06-12-1200-ai-ai-agency-wedge-decision-2026",
+        "source": "inbox-2026-06-13-0600-sales-personalized-landing-pages-outreach-1u4dloy",
         "target": "01-Inbox",
         "type": "in"
       },
       {
-        "source": "inbox-2026-06-12-1200-indie-saas-first-100-distribution-gap-2026",
+        "source": "inbox-2026-06-13-0600-ai-agent-manual-override-patterns-1u4ikcq",
         "target": "01-Inbox",
         "type": "in"
       },
       {
-        "source": "inbox-2026-06-12-1200-sales-llm-leadgen-gemini-fail-2026",
+        "source": "inbox-2026-06-13-0600-sales-selling-automations-gtm-1u3qlda",
         "target": "01-Inbox",
         "type": "in"
       }

@@ -66,6 +66,34 @@
     vertical-align: middle;
   }
   @keyframes pulse { 0%,100% { opacity: 0.5; } 50% { opacity: 1; } }
+  .refresh-btn {
+    background: rgba(0, 212, 255, 0.1);
+    border: 1px solid var(--border-glow);
+    color: var(--cyan);
+    padding: 0.3rem 0.8rem;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-family: inherit;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-left: 0.3rem;
+  }
+  .refresh-btn:hover {
+    background: rgba(0, 212, 255, 0.25);
+    box-shadow: 0 0 12px var(--border-glow);
+    transform: translateY(-1px);
+  }
+  .refresh-btn:active { transform: translateY(0); }
+  .refresh-btn.loading {
+    opacity: 0.6;
+    pointer-events: none;
+  }
+  .refresh-btn.loading::after {
+    content: ' ⟳';
+    display: inline-block;
+    animation: spin 0.8s linear infinite;
+  }
+  @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
 
   /* Stats bar */
   .stats-bar {
@@ -299,7 +327,12 @@
   <header>
     <h1>🗺️ Luigi Vault Map</h1>
     <p class="tagline">Founder Pain Mining System · live mind map of your vault, scan pipeline, and pain tracker</p>
-    <p class="tagline muted"><span class="pulse-dot"></span>Live data · last refresh: <span id="generated">—</span></p>
+    <p class="tagline muted">
+      <span class="pulse-dot"></span>
+      Live data · last refresh: <span id="generated">—</span>
+      &nbsp;·&nbsp;
+      <button id="refresh-btn" class="refresh-btn" title="Re-fetch vault-data.json without reloading the page">↻ Refresh</button>
+    </p>
   </header>
 
   <!-- Stats bar -->
@@ -392,13 +425,17 @@
 const dataUrl = 'vault-data.json';
 const tooltip = d3.select('#tooltip');
 
-fetch(dataUrl)
-  .then(r => r.json())
-  .then(d => render(d))
-  .catch(err => {
-    document.getElementById('mindmap').innerHTML = '<p style="color:#ff5c7a;padding:2rem;text-align:center">⚠ Failed to load vault-data.json. Run <code>python3 build_vault_map.py</code> first.<br><br>' + err.message + '</p>';
-    console.error(err);
-  });
+// Cache-bust: append ?t=Date.now() so we never hit a cached copy
+function loadData() {
+  const url = dataUrl + '?t=' + Date.now();
+  return fetch(url)
+    .then(r => r.json())
+    .catch(err => {
+      document.getElementById('mindmap').innerHTML = '<p style="color:#ff5c7a;padding:2rem;text-align:center">⚠ Failed to load vault-data.json. Run <code>python3 build_vault_map.py</code> first.<br><br>' + err.message + '</p>';
+      console.error(err);
+      throw err;
+    });
+}
 
 function render(d) {
   // === Stats bar ===
@@ -629,8 +666,42 @@ function escapeHtml(s) {
   }[c]));
 }
 
-// Auto-refresh every 5 minutes
-setInterval(() => location.reload(), 5 * 60 * 1000);
+// Auto-refresh every 5 minutes (silent)
+setInterval(() => loadData().then(render), 5 * 60 * 1000);
+
+// Manual refresh button
+document.getElementById('refresh-btn').addEventListener('click', () => {
+  const btn = document.getElementById('refresh-btn');
+  btn.classList.add('loading');
+  btn.textContent = '↻ Refreshing';
+  loadData()
+    .then(d => {
+      render(d);
+      btn.classList.remove('loading');
+      btn.textContent = '↻ Refresh';
+      // Quick visual feedback
+      btn.style.background = 'rgba(92, 255, 170, 0.3)';
+      btn.style.borderColor = 'var(--green)';
+      setTimeout(() => {
+        btn.style.background = '';
+        btn.style.borderColor = '';
+      }, 800);
+    })
+    .catch(() => {
+      btn.classList.remove('loading');
+      btn.textContent = '↻ Retry';
+      btn.style.background = 'rgba(255, 92, 122, 0.2)';
+      btn.style.borderColor = 'var(--red)';
+      setTimeout(() => {
+        btn.style.background = '';
+        btn.style.borderColor = '';
+        btn.textContent = '↻ Refresh';
+      }, 2000);
+    });
+});
+
+// Initial load
+loadData().then(render);
 </script>
 </body>
 </html>
