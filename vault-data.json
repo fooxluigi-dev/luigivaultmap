@@ -1,24 +1,15 @@
 {
-  "generated_at": "2026-06-13T17:13:15.280673+02:00",
+  "generated_at": "2026-06-21T18:43:59.542378+02:00",
   "vault_path": "/Users/openclaw/.hermes/leads-vault",
   "folders": [
     {
-      "name": "00-Archive",
-      "emoji": "🗄️",
-      "description": "Immutable history. Previous scans auto-archived here. Inbox stays clean (~6h).",
-      "color": "#666666",
-      "file_count": 90,
-      "latest_mtime": 1781345498.4198961,
-      "latest_iso": "2026-06-13T12:11:38.419896+02:00"
-    },
-    {
       "name": "01-Inbox",
       "emoji": "📥",
-      "description": "Fresh findings, last 6 hours only. Older scans auto-archived to 00-Archive.",
+      "description": "Fresh findings, 3-5 per scan. 4 cron jobs: 00:00, 08:00, 12:00, 18:00.",
       "color": "#00f0ff",
-      "file_count": 4,
-      "latest_mtime": 1781345578.0080202,
-      "latest_iso": "2026-06-13T12:12:58.008020+02:00"
+      "file_count": 5,
+      "latest_mtime": 1782058859.1778312,
+      "latest_iso": "2026-06-21T18:20:59.177831+02:00"
     },
     {
       "name": "02-Founder-Pain",
@@ -26,8 +17,8 @@
       "description": "Categorized pain points. 6 canonical names. Raw, not qualified. Encyclopedia of pain.",
       "color": "#ff00ff",
       "file_count": 6,
-      "latest_mtime": 1781345653.544815,
-      "latest_iso": "2026-06-13T12:14:13.544815+02:00"
+      "latest_mtime": 1782058984.6748135,
+      "latest_iso": "2026-06-21T18:23:04.674814+02:00"
     },
     {
       "name": "03-Leads",
@@ -44,8 +35,8 @@
       "description": "Pain that hits 10+ mentions = service candidate. Tracked weekly with trend arrows.",
       "color": "#aa00ff",
       "file_count": 7,
-      "latest_mtime": 1781345711.4776585,
-      "latest_iso": "2026-06-13T12:15:11.477659+02:00"
+      "latest_mtime": 1782059047.4754333,
+      "latest_iso": "2026-06-21T18:24:07.475433+02:00"
     },
     {
       "name": "05-Services",
@@ -91,173 +82,185 @@
       "file_count": 1,
       "latest_mtime": 1781038243.6624908,
       "latest_iso": "2026-06-09T22:50:43.662491+02:00"
+    },
+    {
+      "name": "00-Archive",
+      "emoji": "🗄️",
+      "description": "Immutable history. Auto-archived from 01-Inbox after 6h. Queryable.",
+      "color": "#888899",
+      "file_count": 242,
+      "latest_mtime": 1782037081.1191506,
+      "latest_iso": "2026-06-21T12:18:01.119151+02:00"
     }
   ],
   "canonical_pains": [
     {
       "name": "ai-automation-implementation-gap",
       "path": "02-Founder-Pain/ai-automation-implementation-gap.md",
-      "total_mentions": 24,
+      "total_mentions": 89,
       "edge_score": 60,
       "pain_severity": 9,
       "first_seen": "2026-06-09",
-      "last_7_delta": 10,
-      "source_file_count": 24
+      "last_7_delta": 12,
+      "source_file_count": 44
     },
     {
       "name": "b2b-lead-generation",
       "path": "02-Founder-Pain/b2b-lead-generation.md",
-      "total_mentions": 26,
+      "total_mentions": 84,
       "edge_score": 55,
       "pain_severity": 9,
       "first_seen": "2026-06-09",
-      "last_7_delta": 13,
-      "source_file_count": 26
+      "last_7_delta": 8,
+      "source_file_count": 41
     },
     {
       "name": "competitor-and-market-research",
       "path": "02-Founder-Pain/competitor-and-market-research.md",
-      "total_mentions": 16,
+      "total_mentions": 33,
       "edge_score": 55,
       "pain_severity": 7,
       "first_seen": "2026-06-09",
       "last_7_delta": 1,
-      "source_file_count": 16
+      "source_file_count": 18
     },
     {
       "name": "eu-market-entry-compliance",
       "path": "02-Founder-Pain/eu-market-entry-compliance.md",
-      "total_mentions": 6,
+      "total_mentions": 16,
       "edge_score": 60,
       "pain_severity": 9,
       "first_seen": "2026-06-09",
-      "last_7_delta": 4,
-      "source_file_count": 6
+      "last_7_delta": 5,
+      "source_file_count": 7
     },
     {
       "name": "indie-launch-distribution",
       "path": "02-Founder-Pain/indie-launch-distribution.md",
-      "total_mentions": 11,
+      "total_mentions": 18,
       "edge_score": 50,
       "pain_severity": 8,
       "first_seen": "2026-06-09",
-      "last_7_delta": 7,
-      "source_file_count": 11
+      "last_7_delta": 2,
+      "source_file_count": 13
     },
     {
       "name": "supplier-distributor-search",
       "path": "02-Founder-Pain/supplier-distributor-search.md",
-      "total_mentions": 12,
+      "total_mentions": 21,
       "edge_score": 55,
       "pain_severity": 7,
       "first_seen": "2026-06-09",
-      "last_7_delta": 5,
+      "last_7_delta": 3,
       "source_file_count": 12
     }
   ],
   "recent_inbox": [
     {
-      "filename": "2026-06-13-1010-indie-hn-launch-legal-gtm-help-48505805.md",
-      "path": "01-Inbox/2026-06-13-1010-indie-hn-launch-legal-gtm-help-48505805.md",
-      "mtime": 1781345578.0080202,
-      "post_age": "16h (posted 2026-06-12 18:40 UTC — derived from HN item time 1781280004 → 2026-06-12 18:40:04 UTC)",
-      "title": "2026-06-13-1010-indie-hn-launch-legal-gtm-help-48505805",
-      "category": "1010",
-      "url": "https://news.ycombinator.com/item?id=48505805",
-      "pain_score": null,
+      "filename": "2026-06-21-1600-automation-stripe-ar-automation-pipeline-1ubfbht.md",
+      "path": "01-Inbox/2026-06-21-1600-automation-stripe-ar-automation-pipeline-1ubfbht.md",
+      "mtime": 1782058859.1778312,
+      "post_age": "12.9h (posted 2026-06-21 03:21 UTC, retrieved 16:18 UTC)",
+      "title": "AR automation options for Stripe? Looking for ways to automate invoice creation",
+      "category": "** **ai-automation-implementation-gap**",
+      "url": "https://old.reddit.com/r/automation/comments/1ubfbht/ar_automation_options_for_stripe_looking_for_ways/",
+      "pain_score": 7,
       "edge_score": null,
-      "iso_mtime": "2026-06-13T12:12:58.008020+02:00"
+      "iso_mtime": "2026-06-21T18:20:59.177831+02:00"
     },
     {
-      "filename": "2026-06-13-1010-ai-support-automation-no-bad-chatbots-1u4ltma.md",
-      "path": "01-Inbox/2026-06-13-1010-ai-support-automation-no-bad-chatbots-1u4ltma.md",
-      "mtime": 1781345558.5730565,
-      "post_age": "1h (posted 2026-06-13 08:50 UTC) — extremely fresh, OP is actively building",
-      "title": "2026-06-13-1010-ai-support-automation-no-bad-chatbots-1u4ltma",
-      "category": "1010",
-      "url": "https://old.reddit.com/r/automation/comments/1u4ltma/automating_customer_support_actually_looks_like/",
-      "pain_score": null,
+      "filename": "2026-06-21-1600-startups-two-sided-marketplace-cold-start-1ub1vkh.md",
+      "path": "01-Inbox/2026-06-21-1600-startups-two-sided-marketplace-cold-start-1ub1vkh.md",
+      "mtime": 1782058822.9596522,
+      "post_age": "23.1h (posted 2026-06-20 17:10 UTC, retrieved 16:30 UTC)",
+      "title": "How do you actually find the first buyers for a two-sided \"service marketplace\" (e.g. boosting/coaching type platforms)? (I Will not Promote)",
+      "category": "** **b2b-lead-generation**",
+      "url": "https://old.reddit.com/r/startups/comments/1ub1vkh/how_do_you_actually_find_the_first_buyers_for_a/",
+      "pain_score": 7,
       "edge_score": null,
-      "iso_mtime": "2026-06-13T12:12:38.573056+02:00"
+      "iso_mtime": "2026-06-21T18:20:22.959652+02:00"
     },
     {
-      "filename": "2026-06-13-1010-distribution-cod-eastern-europe-1u4l8bt.md",
-      "path": "01-Inbox/2026-06-13-1010-distribution-cod-eastern-europe-1u4l8bt.md",
-      "mtime": 1781345538.1551423,
-      "post_age": "2h (posted 2026-06-13 08:13 UTC) — very fresh, OP is at the *exploration* stage",
-      "title": "2026-06-13-1010-distribution-cod-eastern-europe-1u4l8bt",
-      "category": "1010",
-      "url": "https://old.reddit.com/r/ecommerce/comments/1u4l8bt/who_is_selling_cod_in_eastern_europe/",
-      "pain_score": null,
+      "filename": "2026-06-21-1600-startups-b2b-closer-commission-equity-structure-1ubqpo5.md",
+      "path": "01-Inbox/2026-06-21-1600-startups-b2b-closer-commission-equity-structure-1ubqpo5.md",
+      "mtime": 1782058785.4362433,
+      "post_age": "2.6h (posted 2026-06-21 13:56 UTC, retrieved 16:30 UTC)",
+      "title": "How do I structure a fair commission/equity split for a B2B closer when I have a 9-5 [i will not promote]",
+      "category": "** **b2b-lead-generation**",
+      "url": "https://old.reddit.com/r/startups/comments/1ubqpo5/how_do_i_structure_a_fair_commissionequity_split/",
+      "pain_score": 8,
       "edge_score": null,
-      "iso_mtime": "2026-06-13T12:12:18.155142+02:00"
+      "iso_mtime": "2026-06-21T18:19:45.436243+02:00"
     },
     {
-      "filename": "2026-06-13-1010-sales-b2b-saas-equity-partner-pitch-1u4ilh4.md",
-      "path": "01-Inbox/2026-06-13-1010-sales-b2b-saas-equity-partner-pitch-1u4ilh4.md",
-      "mtime": 1781345517.2286325,
-      "post_age": "4h (posted 2026-06-13 05:41 UTC) — very fresh, OP is actively thinking about this",
-      "title": "2026-06-13-1010-sales-b2b-saas-equity-partner-pitch-1u4ilh4",
-      "category": "1010",
-      "url": "https://old.reddit.com/r/SaaS/comments/1u4ilh4/solo_founder_of_a_bootstrapped_b2b_saas_media/",
-      "pain_score": null,
+      "filename": "2026-06-21-1600-ai-construction-mep-ai-agent-fear-wrong-problem-1ubnk28.md",
+      "path": "01-Inbox/2026-06-21-1600-ai-construction-mep-ai-agent-fear-wrong-problem-1ubnk28.md",
+      "mtime": 1782058744.0476198,
+      "post_age": "4.7h (posted 2026-06-21 11:21 UTC, retrieved 16:03 UTC)",
+      "title": "How do you go about fear of solving the wrong problems as an early stage? I will not promote",
+      "category": "** **ai-automation-implementation-gap**",
+      "url": "https://old.reddit.com/r/startups/comments/1ubnk28/how_do_you_go_about_fear_of_solving_the_wrong/",
+      "pain_score": 7,
       "edge_score": null,
-      "iso_mtime": "2026-06-13T12:11:57.228632+02:00"
+      "iso_mtime": "2026-06-21T18:19:04.047620+02:00"
+    },
+    {
+      "filename": "2026-06-21-1600-saas-saas-spend-audit-6847-renewal-tracking-1ubtu6a.md",
+      "path": "01-Inbox/2026-06-21-1600-saas-saas-spend-audit-6847-renewal-tracking-1ubtu6a.md",
+      "mtime": 1782058701.902225,
+      "post_age": "0.2h (posted 2026-06-21 16:06 UTC, retrieved 16:16 UTC)",
+      "title": "paid €6,847 last quarter to renew a SaaS tool that nobody at our company can even log into anymore. how are other startups actually tracking this?",
+      "category": "** **competitor-and-market-research**",
+      "url": "https://old.reddit.com/r/SaaS/comments/1ubtu6a/paid_6847_last_quarter_to_renew_a_saas_tool_that/",
+      "pain_score": 9,
+      "edge_score": null,
+      "iso_mtime": "2026-06-21T18:18:21.902225+02:00"
     }
   ],
   "cron_runs": [
     {
+      "job_id": "c6dd26b07375",
+      "latest_file": "2026-06-21_18-25-11.md",
+      "mtime": 1782059111.133177,
+      "iso": "2026-06-21T18:25:11.133177+02:00"
+    },
+    {
       "job_id": "7a7b7518a2c2",
-      "latest_file": "2026-06-13_12-15-44.md",
-      "mtime": 1781345744.4614627,
-      "iso": "2026-06-13T12:15:44.461463+02:00"
+      "latest_file": "2026-06-21_12-38-31.md",
+      "mtime": 1782038311.7139516,
+      "iso": "2026-06-21T12:38:31.713952+02:00"
     },
     {
       "job_id": "1652a736a331",
-      "latest_file": "2026-06-13_08-11-16.md",
-      "mtime": 1781331076.7952912,
-      "iso": "2026-06-13T08:11:16.795291+02:00"
+      "latest_file": "2026-06-21_08-10-49.md",
+      "mtime": 1782022249.8758736,
+      "iso": "2026-06-21T08:10:49.875874+02:00"
     },
     {
-      "job_id": "6abe10d2a786",
-      "latest_file": "2026-06-13_00-11-48.md",
-      "mtime": 1781302308.4342391,
-      "iso": "2026-06-13T00:11:48.434239+02:00"
-    },
-    {
-      "job_id": "c6dd26b07375",
-      "latest_file": "2026-06-12_18-10-19.md",
-      "mtime": 1781280619.0714314,
-      "iso": "2026-06-12T18:10:19.071431+02:00"
+      "job_id": "42956c081057",
+      "latest_file": "2026-06-21_00-17-43.md",
+      "mtime": 1781993863.6093361,
+      "iso": "2026-06-21T00:17:43.609336+02:00"
     }
   ],
   "stats": {
-    "total_files": 111,
-    "total_mentions": 95,
+    "total_files": 264,
+    "total_mentions": 261,
     "avg_edge_score": 55.8,
     "canonical_pain_count": 6,
-    "graph_node_count": 20,
-    "graph_edge_count": 19
+    "graph_node_count": 21,
+    "graph_edge_count": 20
   },
   "graph": {
     "nodes": [
-      {
-        "id": "00-Archive",
-        "label": "🗄️ 00-Archive",
-        "type": "folder",
-        "color": "#666666",
-        "file_count": 90,
-        "description": "Immutable history. Previous scans auto-archived here. Inbox stays clean (~6h).",
-        "size": 49.0
-      },
       {
         "id": "01-Inbox",
         "label": "📥 01-Inbox",
         "type": "folder",
         "color": "#00f0ff",
-        "file_count": 4,
-        "description": "Fresh findings, last 6 hours only. Older scans auto-archived to 00-Archive.",
-        "size": 26.6
+        "file_count": 5,
+        "description": "Fresh findings, 3-5 per scan. 4 cron jobs: 00:00, 08:00, 12:00, 18:00.",
+        "size": 27.0
       },
       {
         "id": "02-Founder-Pain",
@@ -332,17 +335,26 @@
         "size": 25.4
       },
       {
+        "id": "00-Archive",
+        "label": "🗄️ 00-Archive",
+        "type": "folder",
+        "color": "#888899",
+        "file_count": 0,
+        "description": "Immutable history. Auto-archived from 01-Inbox after 6h. Queryable.",
+        "size": 25.0
+      },
+      {
         "id": "pain-ai-automation-implementation-gap",
         "label": "ai-automation-implementation-gap",
         "type": "pain",
         "color": "#ff00ff",
         "file_count": 1,
-        "mentions": 24,
+        "mentions": 89,
         "edge_score": 60,
         "pain_severity": 9,
-        "last_7_delta": 10,
+        "last_7_delta": 12,
         "first_seen": "2026-06-09",
-        "size": 21.6
+        "size": 32.0
       },
       {
         "id": "pain-b2b-lead-generation",
@@ -350,12 +362,12 @@
         "type": "pain",
         "color": "#ff00ff",
         "file_count": 1,
-        "mentions": 26,
+        "mentions": 84,
         "edge_score": 55,
         "pain_severity": 9,
-        "last_7_delta": 13,
+        "last_7_delta": 8,
         "first_seen": "2026-06-09",
-        "size": 22.4
+        "size": 32.0
       },
       {
         "id": "pain-competitor-and-market-research",
@@ -363,12 +375,12 @@
         "type": "pain",
         "color": "#ff00ff",
         "file_count": 1,
-        "mentions": 16,
+        "mentions": 33,
         "edge_score": 55,
         "pain_severity": 7,
         "last_7_delta": 1,
         "first_seen": "2026-06-09",
-        "size": 18.4
+        "size": 25.200000000000003
       },
       {
         "id": "pain-eu-market-entry-compliance",
@@ -376,12 +388,12 @@
         "type": "pain",
         "color": "#ff00ff",
         "file_count": 1,
-        "mentions": 6,
+        "mentions": 16,
         "edge_score": 60,
         "pain_severity": 9,
-        "last_7_delta": 4,
+        "last_7_delta": 5,
         "first_seen": "2026-06-09",
-        "size": 14.4
+        "size": 18.4
       },
       {
         "id": "pain-indie-launch-distribution",
@@ -389,12 +401,12 @@
         "type": "pain",
         "color": "#ff00ff",
         "file_count": 1,
-        "mentions": 11,
+        "mentions": 18,
         "edge_score": 50,
         "pain_severity": 8,
-        "last_7_delta": 7,
+        "last_7_delta": 2,
         "first_seen": "2026-06-09",
-        "size": 16.4
+        "size": 19.2
       },
       {
         "id": "pain-supplier-distributor-search",
@@ -402,70 +414,83 @@
         "type": "pain",
         "color": "#ff00ff",
         "file_count": 1,
-        "mentions": 12,
+        "mentions": 21,
         "edge_score": 55,
         "pain_severity": 7,
-        "last_7_delta": 5,
+        "last_7_delta": 3,
         "first_seen": "2026-06-09",
-        "size": 16.8
+        "size": 20.4
       },
       {
-        "id": "inbox-2026-06-13-1010-indie-hn-launch-legal-gtm-help-48505805",
-        "label": "2026-06-13-1010-indie-hn-launch-legal-gtm-help-485",
+        "id": "inbox-2026-06-21-1600-automation-stripe-ar-automation-pipeline-1ubfbht",
+        "label": "AR automation options for Stripe? Looking for ways",
         "type": "inbox",
         "color": "#00f0ff",
         "file_count": 1,
-        "category": "1010",
-        "post_age": "16h (posted 2026-06-12 18:40 UTC — derived from HN item time 1781280004 → 2026-06-12 18:40:04 UTC)",
+        "category": "** **ai-automation-implementation-gap**",
+        "post_age": "12.9h (posted 2026-06-21 03:21 UTC, retrieved 16:18 UTC)",
         "edge_score": null,
-        "pain_score": null,
+        "pain_score": 7,
         "size": 8,
-        "mtime": 1781345578.0080202
+        "mtime": 1782058859.1778312
       },
       {
-        "id": "inbox-2026-06-13-1010-ai-support-automation-no-bad-chatbots-1u4ltma",
-        "label": "2026-06-13-1010-ai-support-automation-no-bad-chatb",
+        "id": "inbox-2026-06-21-1600-startups-two-sided-marketplace-cold-start-1ub1vkh",
+        "label": "How do you actually find the first buyers for a tw",
         "type": "inbox",
         "color": "#00f0ff",
         "file_count": 1,
-        "category": "1010",
-        "post_age": "1h (posted 2026-06-13 08:50 UTC) — extremely fresh, OP is actively building",
+        "category": "** **b2b-lead-generation**",
+        "post_age": "23.1h (posted 2026-06-20 17:10 UTC, retrieved 16:30 UTC)",
         "edge_score": null,
-        "pain_score": null,
+        "pain_score": 7,
         "size": 8,
-        "mtime": 1781345558.5730565
+        "mtime": 1782058822.9596522
       },
       {
-        "id": "inbox-2026-06-13-1010-distribution-cod-eastern-europe-1u4l8bt",
-        "label": "2026-06-13-1010-distribution-cod-eastern-europe-1u",
+        "id": "inbox-2026-06-21-1600-startups-b2b-closer-commission-equity-structure-1ubqpo5",
+        "label": "How do I structure a fair commission/equity split ",
         "type": "inbox",
         "color": "#00f0ff",
         "file_count": 1,
-        "category": "1010",
-        "post_age": "2h (posted 2026-06-13 08:13 UTC) — very fresh, OP is at the *exploration* stage",
+        "category": "** **b2b-lead-generation**",
+        "post_age": "2.6h (posted 2026-06-21 13:56 UTC, retrieved 16:30 UTC)",
         "edge_score": null,
-        "pain_score": null,
+        "pain_score": 8,
         "size": 8,
-        "mtime": 1781345538.1551423
+        "mtime": 1782058785.4362433
       },
       {
-        "id": "inbox-2026-06-13-1010-sales-b2b-saas-equity-partner-pitch-1u4ilh4",
-        "label": "2026-06-13-1010-sales-b2b-saas-equity-partner-pitc",
+        "id": "inbox-2026-06-21-1600-ai-construction-mep-ai-agent-fear-wrong-problem-1ubnk28",
+        "label": "How do you go about fear of solving the wrong prob",
         "type": "inbox",
         "color": "#00f0ff",
         "file_count": 1,
-        "category": "1010",
-        "post_age": "4h (posted 2026-06-13 05:41 UTC) — very fresh, OP is actively thinking about this",
+        "category": "** **ai-automation-implementation-gap**",
+        "post_age": "4.7h (posted 2026-06-21 11:21 UTC, retrieved 16:03 UTC)",
         "edge_score": null,
-        "pain_score": null,
+        "pain_score": 7,
         "size": 8,
-        "mtime": 1781345517.2286325
+        "mtime": 1782058744.0476198
+      },
+      {
+        "id": "inbox-2026-06-21-1600-saas-saas-spend-audit-6847-renewal-tracking-1ubtu6a",
+        "label": "paid €6,847 last quarter to renew a SaaS tool that",
+        "type": "inbox",
+        "color": "#00f0ff",
+        "file_count": 1,
+        "category": "** **competitor-and-market-research**",
+        "post_age": "0.2h (posted 2026-06-21 16:06 UTC, retrieved 16:16 UTC)",
+        "edge_score": null,
+        "pain_score": 9,
+        "size": 8,
+        "mtime": 1782058701.902225
       }
     ],
     "edges": [
       {
-        "source": "00-Archive",
-        "target": "01-Inbox",
+        "source": "01-Inbox",
+        "target": "02-Founder-Pain",
         "type": "ecosystem"
       },
       {
@@ -474,18 +499,8 @@
         "type": "ecosystem"
       },
       {
-        "source": "01-Inbox",
-        "target": "02-Founder-Pain",
-        "type": "ecosystem"
-      },
-      {
         "source": "02-Founder-Pain",
         "target": "04-Patterns",
-        "type": "ecosystem"
-      },
-      {
-        "source": "02-Founder-Pain",
-        "target": "03-Leads",
         "type": "ecosystem"
       },
       {
@@ -499,8 +514,18 @@
         "type": "ecosystem"
       },
       {
+        "source": "05-Services",
+        "target": "03-Leads",
+        "type": "ecosystem"
+      },
+      {
         "source": "06-Ideas",
         "target": "05-Services",
+        "type": "ecosystem"
+      },
+      {
+        "source": "07-Playbooks",
+        "target": "03-Leads",
         "type": "ecosystem"
       },
       {
@@ -539,22 +564,27 @@
         "type": "belongs"
       },
       {
-        "source": "inbox-2026-06-13-1010-indie-hn-launch-legal-gtm-help-48505805",
+        "source": "inbox-2026-06-21-1600-automation-stripe-ar-automation-pipeline-1ubfbht",
         "target": "01-Inbox",
         "type": "in"
       },
       {
-        "source": "inbox-2026-06-13-1010-ai-support-automation-no-bad-chatbots-1u4ltma",
+        "source": "inbox-2026-06-21-1600-startups-two-sided-marketplace-cold-start-1ub1vkh",
         "target": "01-Inbox",
         "type": "in"
       },
       {
-        "source": "inbox-2026-06-13-1010-distribution-cod-eastern-europe-1u4l8bt",
+        "source": "inbox-2026-06-21-1600-startups-b2b-closer-commission-equity-structure-1ubqpo5",
         "target": "01-Inbox",
         "type": "in"
       },
       {
-        "source": "inbox-2026-06-13-1010-sales-b2b-saas-equity-partner-pitch-1u4ilh4",
+        "source": "inbox-2026-06-21-1600-ai-construction-mep-ai-agent-fear-wrong-problem-1ubnk28",
+        "target": "01-Inbox",
+        "type": "in"
+      },
+      {
+        "source": "inbox-2026-06-21-1600-saas-saas-spend-audit-6847-renewal-tracking-1ubtu6a",
         "target": "01-Inbox",
         "type": "in"
       }
